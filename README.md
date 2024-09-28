@@ -13,5 +13,5 @@ python export.py --rknpu --weight best.pt
 # 后续
 在ubuntu系统中将onnx转化为rknn
 
-RKNN-Toolkit2  我是2.2.0版本
+RKNN-Toolkit2  我是2.0.0版本
 板端 api是2.1.0
