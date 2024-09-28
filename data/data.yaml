@@ -1,0 +1,43 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/product-detect.v8i.yolov5pytorch  # dataset root dir
+train: ../train/images  # train images (relative to 'path')
+val: ../valid/images  # val images (relative to 'path')
+test: ../test/images  # test images (optional)
+
+# Number of classes
+#nc: 23  # number of classes
+
+# Classes
+names:
+  0: AD_milk
+  1: blue_box
+  2: coca_cola_can
+  3: dongpeng
+  4: fanta_can
+  5: jindian_milk
+  6: jingdian_milk
+  7: lays_crisps
+  8: liziyuan_milk
+  9: mengniu_milk
+  10: pepsi_cola_can
+  11: red_box
+  12: redbull_can
+  13: shuyaun_crisps
+  14: shuyuan_crisps
+  15: sprite_can
+  16: telunsu_milk
+  17: wanglaoji_can
+  18: wangzai_milk-_can
+  19: wangzai_milk_can
+  20: yangleduo_milk
+  21: yili_milik
+  22: yili_milk
+'''
+# Roboflow dataset info (optional)
+roboflow:
+  workspace: supermarket-robot
+  project: product-detect-myf1w
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/supermarket-robot/product-detect-myf1w/dataset/8
+'''
