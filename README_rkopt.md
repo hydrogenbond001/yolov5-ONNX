@@ -22,6 +22,13 @@ With inference result got changed, the following optimization was applied:
 
 
 ## How to use
+before export,you can train
+
+```
+python train.py --img 640 --batch 16 --epochs 99 --data data.yaml --weights yolov5s.pt
+```
+
+
 
 ```
 # for detection model
@@ -39,5 +46,7 @@ python export.py --rknpu --weight yolov5s-seg.pt
 
 ## Deploy demo
 
-Please refer https://github.com/airockchip/rknn_model_zoo
+Please refer https://github.com/hydrogenbond001/rknn-yolov5-cpp.git
+
+我这还有香橙派5的串口的demo可以用
 
